@@ -10,7 +10,13 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.blue,
-        title: Text("ToDo"),
+        title: Text(
+          "ToDo",
+          style: TextStyle(
+            fontSize: 30,
+            color: Colors.white,
+          ),
+        ),
       ),
     );
   }
